@@ -63,6 +63,7 @@ For Each hoja In ThisWorkbook.Worksheets
         hoja.ShowAllData
     End If
 Next hoja
+'se debe enlazar a la sheets de la macro
 Call GuardarValida
 
 Application.Speech.Speak "Valida Guardado.. op.plus..mas y mejor", True
